@@ -3,7 +3,7 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
-<title>My First Post | Cam Nguyen | Blog</title>
+<title>My First Post | cam nguyen | blog</title>
 <meta name=keywords content="first">
 <meta name=description content="Desc Text.">
 <meta name=author content>
@@ -29,13 +29,13 @@
 <meta property="og:url" content="https://cambuchi.github.io/blog/posts/my-first-post/">
 <meta property="og:image" content="https://www.theodinproject.com/assets/odin-logo-bd86cf893a3de1f1daceabc1377f58669776616a91ab70c601fd5c16a4686468.svg"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2021-12-22T13:53:01-08:00">
-<meta property="article:modified_time" content="2021-12-22T13:53:01-08:00"><meta property="og:site_name" content="Cam Nguyen | Blog">
+<meta property="article:modified_time" content="2021-12-22T13:53:01-08:00"><meta property="og:site_name" content="cam nguyen | blog">
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://www.theodinproject.com/assets/odin-logo-bd86cf893a3de1f1daceabc1377f58669776616a91ab70c601fd5c16a4686468.svg">
 <meta name=twitter:title content="My First Post">
 <meta name=twitter:description content="Desc Text.">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":2,"name":"Posts","item":"https://cambuchi.github.io/blog/posts/"},{"@type":"ListItem","position":3,"name":"My First Post","item":"https://cambuchi.github.io/blog/posts/my-first-post/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"My First Post","name":"My First Post","description":"Desc Text.","keywords":["first"],"articleBody":"Some text above\n1 2 3 4 5 6 7 8 9 10 11 12 13  {\"firstName\":\"John\",\"lastName\":\"Smith\",\"age\":25}packagemainimport\"fmt\"funcmain(){fmt.Println(\"Hello, World!\")}  Some text below\n1 2 3 4 5 6 7 8 9 10 11 12 13  {\"firstName\":\"John\",\"lastName\":\"Smith\",\"age\":25}packagemainimport\"fmt\"funcmain(){fmt.Println(\"Hello, World!\")}  Another one\n1 2 3 4  constPerson=(name,age)={constsayName=()=console.log(name)}letCam=Person('Cam','30');  And we will see what the default code input is below:\nconst Person = (name, age) = {\rconst sayName = () = console.log(name)\r}\rlet Cam = Person('Cam', '30');\r how about inline code?\nlastly let’s check if the hugo method works\n1  `sectionid=\"main\"divh1id=\"title\"{{ .Title }}h1{{ range .Pages }} {{ .Render \"summary\"}} {{ end }} divsection`   follow up with some JS\n1 2 3 4 5  constPerson=(name,age)={constsayName=()=console.log(name)}letCam=Person('Cam','30');   1 2 3 4 5 6 7  constprimes=num={letarr=Array.from({length:num-1}).map((x,i)=i+2),sqroot=Math.floor(Math.sqrt(num)),numsTillSqroot=Array.from({length:sqroot-1}).map((x,i)=i+2);numsTillSqroot.forEach(x=(arr=arr.filter(y=y%x!==0||y===x)));returnarr;};   1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29  // when trash icon is clicked, display modal and change onclick functionality to match // target element actions constclickTrashIcon=(data,element)={// display confirmation modal constmodal=document.getElementById('modal-confirm');modal.style.display='flex';// remove previous onclick functions constconfirm=document.getElementById('modal-confirm-submit');confirm.onclick=null;// onclick logic for when group trash items are clicked if(element.classList.contains('group-item')){confirm.onclick=functiondeleteGroup(){DOM.clickGroupTrash(element);Logic.deleteGroup(data,element.textContent);DataStorage.setLocalStorage('todolist',data);modal.style.display='none';};// onclick logic for when tasks are being trashed }elseif(element.classList.contains('task')){confirm.onclick=functiondeleteTask(){constcurrentGroup=document.getElementById('main-header-title').textContent;Logic.deleteTask(data\\[currentGroup\\],element.id);Logic.renumberTasks(data\\[currentGroup\\].tasks);DOM.populateTasks(data,currentGroup);DataStorage.setLocalStorage('todolist',data);modal.style.display='none';};}};   Last but not least let’s see how this works in practice.\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15  //play a move (move is an index on the board) play(move){//if board index is not empty (0) or game is in win condition, invalid move if(this.board\\[move\\]!==0||this.isWin){returnfalse;}//plays a 1 or 2 on the board (representing X or O) this.board\\[move\\]=this.turn;this.moves.push(move);//checks the board and updates the game state if needed // Use regular expression to detect any 3-in-a-row this.isWin=/^(?:...)*(\\[12\\])\\\\1\\\\1|^.?.?(\\[12\\])..\\\\2..\\\\2|^(\\[12\\])...\\\\3...\\\\3|^..(\\[12\\]).\\\\4.\\\\4/.test(this.board.join(\"\"));this.isDraw=!this.isWin\u0026\u0026this.moves.length===this.board.length;returntrue;}   Did that work?\nFinal test…? maybe.\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15  //play a move (move is an index on the board) play(move){//if board index is not empty (0) or game is in win condition, invalid move if(this.board[move]!==0||this.isWin){returnfalse;}//plays a 1 or 2 on the board (representing X or O) this.board[move]=this.turn;this.moves.push(move);//checks the board and updates the game state if needed // Use regular expression to detect any 3-in-a-row this.isWin=/^(?:...)*([12])\\1\\1|^.?.?([12])..\\2..\\2|^([12])...\\3...\\3|^..([12]).\\4.\\4/.test(this.board.join(\"\"));this.isDraw=!this.isWin\u0026\u0026this.moves.length===this.board.length;returntrue;}  Complete?\n","wordCount":"354","inLanguage":"en","image":"https://www.theodinproject.com/assets/odin-logo-bd86cf893a3de1f1daceabc1377f58669776616a91ab70c601fd5c16a4686468.svg","datePublished":"2021-12-22T13:53:01-08:00","dateModified":"2021-12-22T13:53:01-08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://cambuchi.github.io/blog/posts/my-first-post/"},"publisher":{"@type":"Organization","name":"Cam Nguyen | Blog","logo":{"@type":"ImageObject","url":"https://cambuchi.github.io/blog/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"My First Post","name":"My First Post","description":"Desc Text.","keywords":["first"],"articleBody":"Some text above\n1 2 3 4 5 6 7 8 9 10 11 12 13  { \"firstName\": \"John\", \"lastName\": \"Smith\", \"age\": 25 } package main import \"fmt\" func main() { fmt.Println(\"Hello, World!\") }   Some text below\n1 2 3 4 5 6 7 8 9 10 11 12 13  { \"firstName\": \"John\", \"lastName\": \"Smith\", \"age\": 25 } package main import \"fmt\" func main() { fmt.Println(\"Hello, World!\") }   Another one\n1 2 3 4  const Person = (name, age) = { const sayName = () = console.log(name) } let Cam = Person('Cam', '30');   And we will see what the default code input is below:\nconst Person = (name, age) = {\rconst sayName = () = console.log(name)\r}\rlet Cam = Person('Cam', '30');\r how about inline code?\nlastly let’s check if the hugo method works\n1  `section id=\"main\" div h1 id=\"title\"{{ .Title }}h1 {{ range .Pages }} {{ .Render \"summary\"}} {{ end }} div section`   follow up with some JS\n1 2 3 4 5  const Person = (name, age) = { const sayName = () = console.log(name) } let Cam = Person('Cam', '30');   1 2 3 4 5 6 7  const primes = num = { let arr = Array.from({ length: num - 1 }).map((x, i) = i + 2), sqroot = Math.floor(Math.sqrt(num)), numsTillSqroot = Array.from({ length: sqroot - 1 }).map((x, i) = i + 2); numsTillSqroot.forEach(x = (arr = arr.filter(y = y % x !== 0 || y === x))); return arr; };   1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29  // when trash icon is clicked, display modal and change onclick functionality to match // target element actions const clickTrashIcon = (data, element) = { // display confirmation modal const modal = document.getElementById('modal-confirm'); modal.style.display = 'flex'; // remove previous onclick functions const confirm = document.getElementById('modal-confirm-submit'); confirm.onclick = null; // onclick logic for when group trash items are clicked if (element.classList.contains('group-item')) { confirm.onclick = function deleteGroup() { DOM.clickGroupTrash(element); Logic.deleteGroup(data, element.textContent); DataStorage.setLocalStorage('todolist', data); modal.style.display = 'none'; }; // onclick logic for when tasks are being trashed } else if (element.classList.contains('task')) { confirm.onclick = function deleteTask() { const currentGroup = document.getElementById('main-header-title').textContent; Logic.deleteTask(data\\[currentGroup\\], element.id); Logic.renumberTasks(data\\[currentGroup\\].tasks); DOM.populateTasks(data, currentGroup); DataStorage.setLocalStorage('todolist', data); modal.style.display = 'none'; }; } };   Last but not least let’s see how this works in practice.\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15  //play a move (move is an index on the board) play(move) { //if board index is not empty (0) or game is in win condition, invalid move if (this.board\\[move\\] !== 0 || this.isWin) { return false; } //plays a 1 or 2 on the board (representing X or O) this.board\\[move\\] = this.turn; this.moves.push(move); //checks the board and updates the game state if needed // Use regular expression to detect any 3-in-a-row this.isWin = /^(?:...)*(\\[12\\])\\\\1\\\\1|^.?.?(\\[12\\])..\\\\2..\\\\2|^(\\[12\\])...\\\\3...\\\\3|^..(\\[12\\]).\\\\4.\\\\4/.test(this.board.join(\"\")); this.isDraw = !this.isWin \u0026\u0026 this.moves.length === this.board.length; return true; }   Did that work?\nFinal test…? maybe.\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15  //play a move (move is an index on the board) play(move) { //if board index is not empty (0) or game is in win condition, invalid move  if (this.board[move] !== 0 || this.isWin) { return false; } //plays a 1 or 2 on the board (representing X or O)  this.board[move] = this.turn; this.moves.push(move); //checks the board and updates the game state if needed  // Use regular expression to detect any 3-in-a-row  this.isWin = /^(?:...)*([12])\\1\\1|^.?.?([12])..\\2..\\2|^([12])...\\3...\\3|^..([12]).\\4.\\4/.test(this.board.join(\"\")); this.isDraw = !this.isWin \u0026\u0026 this.moves.length === this.board.length; return true; }   Complete?\n","wordCount":"601","inLanguage":"en","image":"https://www.theodinproject.com/assets/odin-logo-bd86cf893a3de1f1daceabc1377f58669776616a91ab70c601fd5c16a4686468.svg","datePublished":"2021-12-22T13:53:01-08:00","dateModified":"2021-12-22T13:53:01-08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://cambuchi.github.io/blog/posts/my-first-post/"},"publisher":{"@type":"Organization","name":"cam nguyen | blog","logo":{"@type":"ImageObject","url":"https://cambuchi.github.io/blog/favicon.ico"}}}</script>
 </head>
 <body class=dark id=top>
 <script>localStorage.getItem("pref-theme")==="light"&&document.body.classList.remove('dark')</script>
@@ -44,16 +44,21 @@
 <div class=logo>
 <span class=logo-switches>
 </span>
-<a href=https://cambuchi.github.io/blog accesskey=h title="Cam Nguyen | Blog (Alt + H)">Cam Nguyen | Blog</a>
+<a href=https://cambuchi.github.io/blog accesskey=h title="cam nguyen | blog (Alt + H)">cam nguyen | blog</a>
 </div>
 <ul id=menu>
 <li>
-<a href=https://cambuchi.github.io/blog/categories/ title=categories>
-<span>categories</span>
+<a href=https://cambuchi.github.io/blog/search/ title="search (Alt + /)" accesskey=/>
+<span>search</span>
 </a>
 </li>
 <li>
-<a href=https://cambuchi.github.io/blog/tags/ title=projects>
+<a href=https://cambuchi.github.io/blog/tags/ title=tags>
+<span>tags</span>
+</a>
+</li>
+<li>
+<a href=https://cambuchi.github.io/blog/projects/ title=projects>
 <span>projects</span>
 </a>
 </li>
@@ -76,92 +81,92 @@ My First Post
 <div class=post-description>
 Desc Text.
 </div>
-<div class=post-meta><span title="2021-12-22 13:53:01 -0800 PST">December 22, 2021</span>&nbsp;·&nbsp;2 min&nbsp;|&nbsp;<a href=https://github.com/Cambuchi/blog-src/blob/main/content/posts/my-first-post.md rel="noopener noreferrer" target=_blank>Suggest Changes</a>
+<div class=post-meta><span title="2021-12-22 13:53:01 -0800 PST">December 22, 2021</span>&nbsp;·&nbsp;3 min&nbsp;|&nbsp;<a href=https://github.com/Cambuchi/blog-src/blob/main/content/posts/my-first-post.md rel="noopener noreferrer" target=_blank>Suggest Changes</a>
 </div>
 </header>
 <figure class=entry-cover><img loading=lazy src=https://www.theodinproject.com/assets/odin-logo-bd86cf893a3de1f1daceabc1377f58669776616a91ab70c601fd5c16a4686468.svg alt="test alt">
 <p>test caption</p>
 </figure>
 <div class=post-content><p>Some text above</p>
-<div class=highlight><div style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;color:#c9c9c9><tr><td style=vertical-align:top;padding:0;margin:0;border:0;color:#c9c9c9>
-<pre tabindex=0 style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 1
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 2
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 3
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 4
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 5
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 6
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 7
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 8
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 9
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">10
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">11
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">12
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">13
+<div class=highlight><div style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2>
+<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
+<pre tabindex=0 style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 5
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 6
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 7
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 8
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">12
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">13
 </span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;color:#c9c9c9;width:100%>
-<pre tabindex=0 style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-js data-lang=js><span style=color:#56b6c2>{</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>  </span><span style=color:#82cc6a>&#34;firstName&#34;</span><span style=color:#bc74c4>:</span><span style=color:#c9c9c9> </span><span style=color:#82cc6a>&#34;John&#34;</span><span style=color:#56b6c2>,</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>  </span><span style=color:#82cc6a>&#34;lastName&#34;</span><span style=color:#bc74c4>:</span><span style=color:#c9c9c9> </span><span style=color:#82cc6a>&#34;Smith&#34;</span><span style=color:#56b6c2>,</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>  </span><span style=color:#82cc6a>&#34;age&#34;</span><span style=color:#bc74c4>:</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>25</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#56b6c2>}</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#7fbaf5>package</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>main</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#7fbaf5>import</span><span style=color:#c9c9c9> </span><span style=color:#82cc6a>&#34;fmt&#34;</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#c9c9c9>func</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>main</span><span style=color:#56b6c2>()</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>{</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>  </span><span style=color:#c9c9c9>fmt</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>Println</span><span style=color:#56b6c2>(</span><span style=color:#82cc6a>&#34;Hello, World!&#34;</span><span style=color:#56b6c2>)</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#56b6c2>}</span><span style=color:#c9c9c9>
-</span></code></pre></td></tr></table>
+<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
+<pre tabindex=0 style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-js data-lang=js>{
+  <span style=color:#5af78e>&#34;firstName&#34;</span><span style=color:#ff6ac1>:</span> <span style=color:#5af78e>&#34;John&#34;</span>,
+  <span style=color:#5af78e>&#34;lastName&#34;</span><span style=color:#ff6ac1>:</span> <span style=color:#5af78e>&#34;Smith&#34;</span>,
+  <span style=color:#5af78e>&#34;age&#34;</span><span style=color:#ff6ac1>:</span> <span style=color:#ff9f43>25</span>
+}
+
+<span style=color:#ff6ac1>package</span> main
+
+<span style=color:#ff6ac1>import</span> <span style=color:#5af78e>&#34;fmt&#34;</span>
+
+func main() {
+  fmt.Println(<span style=color:#5af78e>&#34;Hello, World!&#34;</span>)
+}
+</code></pre></td></tr></table>
 </div>
 </div><p>Some text below</p>
-<div class=highlight><div style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;color:#c9c9c9><tr><td style=vertical-align:top;padding:0;margin:0;border:0;color:#c9c9c9>
-<pre tabindex=0 style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 1
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 2
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 3
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 4
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 5
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 6
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 7
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 8
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 9
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">10
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">11
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">12
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">13
+<div class=highlight><div style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2>
+<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
+<pre tabindex=0 style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 5
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 6
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 7
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 8
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">12
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">13
 </span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;color:#c9c9c9;width:100%>
-<pre tabindex=0 style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-js data-lang=js><span style=color:#56b6c2>{</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>  </span><span style=color:#82cc6a>&#34;firstName&#34;</span><span style=color:#bc74c4>:</span><span style=color:#c9c9c9> </span><span style=color:#82cc6a>&#34;John&#34;</span><span style=color:#56b6c2>,</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>  </span><span style=color:#82cc6a>&#34;lastName&#34;</span><span style=color:#bc74c4>:</span><span style=color:#c9c9c9> </span><span style=color:#82cc6a>&#34;Smith&#34;</span><span style=color:#56b6c2>,</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>  </span><span style=color:#82cc6a>&#34;age&#34;</span><span style=color:#bc74c4>:</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>25</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#56b6c2>}</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#7fbaf5>package</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>main</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#7fbaf5>import</span><span style=color:#c9c9c9> </span><span style=color:#82cc6a>&#34;fmt&#34;</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#c9c9c9>func</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>main</span><span style=color:#56b6c2>()</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>{</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>  </span><span style=color:#c9c9c9>fmt</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>Println</span><span style=color:#56b6c2>(</span><span style=color:#82cc6a>&#34;Hello, World!&#34;</span><span style=color:#56b6c2>)</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#56b6c2>}</span><span style=color:#c9c9c9>
-</span></code></pre></td></tr></table>
+<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
+<pre tabindex=0 style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-js data-lang=js>{
+  <span style=color:#5af78e>&#34;firstName&#34;</span><span style=color:#ff6ac1>:</span> <span style=color:#5af78e>&#34;John&#34;</span>,
+  <span style=color:#5af78e>&#34;lastName&#34;</span><span style=color:#ff6ac1>:</span> <span style=color:#5af78e>&#34;Smith&#34;</span>,
+  <span style=color:#5af78e>&#34;age&#34;</span><span style=color:#ff6ac1>:</span> <span style=color:#ff9f43>25</span>
+}
+
+<span style=color:#ff6ac1>package</span> main
+
+<span style=color:#ff6ac1>import</span> <span style=color:#5af78e>&#34;fmt&#34;</span>
+
+func main() {
+  fmt.Println(<span style=color:#5af78e>&#34;Hello, World!&#34;</span>)
+}
+</code></pre></td></tr></table>
 </div>
 </div><p>Another one</p>
-<div class=highlight><div style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;color:#c9c9c9><tr><td style=vertical-align:top;padding:0;margin:0;border:0;color:#c9c9c9>
-<pre tabindex=0 style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#939599">1
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">2
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">3
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">4
+<div class=highlight><div style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2>
+<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
+<pre tabindex=0 style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
 </span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;color:#c9c9c9;width:100%>
-<pre tabindex=0 style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-js data-lang=js><span style=color:#7fbaf5>const</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>Person</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>(</span><span style=color:#c9c9c9>name</span><span style=color:#56b6c2>,</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>age</span><span style=color:#56b6c2>)</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>=&gt;</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>{</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>  </span><span style=color:#7fbaf5>const</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>sayName</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>()</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>=&gt;</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>console</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>log</span><span style=color:#56b6c2>(</span><span style=color:#c9c9c9>name</span><span style=color:#56b6c2>)</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#56b6c2>}</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#7fbaf5>let</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>Cam</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>Person</span><span style=color:#56b6c2>(</span><span style=color:#82cc6a>&#39;Cam&#39;</span><span style=color:#56b6c2>,</span><span style=color:#c9c9c9> </span><span style=color:#82cc6a>&#39;30&#39;</span><span style=color:#56b6c2>);</span><span style=color:#c9c9c9>
-</span></code></pre></td></tr></table>
+<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
+<pre tabindex=0 style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-js data-lang=js><span style=color:#ff6ac1>const</span> Person <span style=color:#ff6ac1>=</span> (name, age) =&gt; {
+  <span style=color:#ff6ac1>const</span> sayName <span style=color:#ff6ac1>=</span> () =&gt; console.log(name)
+}
+<span style=color:#ff5c57>let</span> Cam <span style=color:#ff6ac1>=</span> Person(<span style=color:#5af78e>&#39;Cam&#39;</span>, <span style=color:#5af78e>&#39;30&#39;</span>);
+</code></pre></td></tr></table>
 </div>
 </div><p>And we will see what the default code input is below:</p>
 <pre><code>const Person = (name, age) =&gt; {
@@ -171,189 +176,189 @@ let Cam = Person('Cam', '30');
 </code></pre>
 <p>how about <code>inline</code> code?</p>
 <p>lastly let&rsquo;s check if the hugo method works</p>
-<div class=highlight><div style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;color:#c9c9c9><tr><td style=vertical-align:top;padding:0;margin:0;border:0;color:#c9c9c9>
-<pre tabindex=0 style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#939599">1
+<div class=highlight><div style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2>
+<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
+<pre tabindex=0 style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;color:#c9c9c9;width:100%>
-<pre tabindex=0 style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-html data-lang=html><span style=color:#c9c9c9>`</span><span style=color:#56b6c2>&lt;</span><span style=color:#bc74c4>section</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>id</span><span style=color:#bc74c4>=</span><span style=color:#82cc6a>&#34;main&#34;</span><span style=color:#56b6c2>&gt;</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>&lt;</span><span style=color:#bc74c4>div</span><span style=color:#56b6c2>&gt;</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>&lt;</span><span style=color:#bc74c4>h1</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>id</span><span style=color:#bc74c4>=</span><span style=color:#82cc6a>&#34;title&#34;</span><span style=color:#56b6c2>&gt;</span><span style=color:#c9c9c9>{{ .Title }}</span><span style=color:#56b6c2>&lt;/</span><span style=color:#bc74c4>h1</span><span style=color:#56b6c2>&gt;</span><span style=color:#c9c9c9> {{ range .Pages }} {{ .Render &#34;summary&#34;}} {{ end }} </span><span style=color:#56b6c2>&lt;/</span><span style=color:#bc74c4>div</span><span style=color:#56b6c2>&gt;</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>&lt;/</span><span style=color:#bc74c4>section</span><span style=color:#56b6c2>&gt;</span><span style=color:#c9c9c9>`</span></code></pre></td></tr></table>
+<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
+<pre tabindex=0 style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-html data-lang=html>`&lt;<span style=color:#ff6ac1>section</span> <span style=color:#57c7ff>id</span><span style=color:#ff6ac1>=</span><span style=color:#5af78e>&#34;main&#34;</span>&gt; &lt;<span style=color:#ff6ac1>div</span>&gt; &lt;<span style=color:#ff6ac1>h1</span> <span style=color:#57c7ff>id</span><span style=color:#ff6ac1>=</span><span style=color:#5af78e>&#34;title&#34;</span>&gt;{{ .Title }}&lt;/<span style=color:#ff6ac1>h1</span>&gt; {{ range .Pages }} {{ .Render &#34;summary&#34;}} {{ end }} &lt;/<span style=color:#ff6ac1>div</span>&gt; &lt;/<span style=color:#ff6ac1>section</span>&gt;`</code></pre></td></tr></table>
 </div>
 </div>
 <p>follow up with some JS</p>
-<div class=highlight><div style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;color:#c9c9c9><tr><td style=vertical-align:top;padding:0;margin:0;border:0;color:#c9c9c9>
-<pre tabindex=0 style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#939599">1
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">2
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">3
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">4
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">5
+<div class=highlight><div style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2>
+<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
+<pre tabindex=0 style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">5
 </span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;color:#c9c9c9;width:100%>
-<pre tabindex=0 style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-js data-lang=js><span style=color:#7fbaf5>const</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>Person</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>(</span><span style=color:#c9c9c9>name</span><span style=color:#56b6c2>,</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>age</span><span style=color:#56b6c2>)</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>=&gt;</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>{</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>    </span><span style=color:#7fbaf5>const</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>sayName</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>()</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>=&gt;</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>console</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>log</span><span style=color:#56b6c2>(</span><span style=color:#c9c9c9>name</span><span style=color:#56b6c2>)</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>}</span><span style=color:#c9c9c9> 
-</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#7fbaf5>let</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>Cam</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>Person</span><span style=color:#56b6c2>(</span><span style=color:#82cc6a>&#39;Cam&#39;</span><span style=color:#56b6c2>,</span><span style=color:#c9c9c9> </span><span style=color:#82cc6a>&#39;30&#39;</span><span style=color:#56b6c2>);</span></code></pre></td></tr></table>
+<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
+<pre tabindex=0 style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-js data-lang=js><span style=color:#ff6ac1>const</span> Person <span style=color:#ff6ac1>=</span> (name, age) =&gt; {
+
+    <span style=color:#ff6ac1>const</span> sayName <span style=color:#ff6ac1>=</span> () =&gt; console.log(name) } 
+
+<span style=color:#ff5c57>let</span> Cam <span style=color:#ff6ac1>=</span> Person(<span style=color:#5af78e>&#39;Cam&#39;</span>, <span style=color:#5af78e>&#39;30&#39;</span>);</code></pre></td></tr></table>
 </div>
 </div>
-<div class=highlight><div style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;color:#c9c9c9><tr><td style=vertical-align:top;padding:0;margin:0;border:0;color:#c9c9c9>
-<pre tabindex=0 style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#939599">1
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">2
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">3
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">4
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">5
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">6
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">7
+<div class=highlight><div style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2>
+<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
+<pre tabindex=0 style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">5
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">6
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">7
 </span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;color:#c9c9c9;width:100%>
-<pre tabindex=0 style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-js data-lang=js><span style=color:#7fbaf5>const</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>primes</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>num</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>=&gt;</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>{</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#7fbaf5>let</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>arr</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#7fbaf5>Array</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>from</span><span style=color:#56b6c2>({</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>length</span><span style=color:#bc74c4>:</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>num</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>-</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>1</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>}).</span><span style=color:#c9c9c9>map</span><span style=color:#56b6c2>((</span><span style=color:#c9c9c9>x</span><span style=color:#56b6c2>,</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>i</span><span style=color:#56b6c2>)</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>=&gt;</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>i</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>+</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>2</span><span style=color:#56b6c2>),</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#c9c9c9>sqroot</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#7fbaf5>Math</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>floor</span><span style=color:#56b6c2>(</span><span style=color:#7fbaf5>Math</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>sqrt</span><span style=color:#56b6c2>(</span><span style=color:#c9c9c9>num</span><span style=color:#56b6c2>)),</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#c9c9c9>numsTillSqroot</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#7fbaf5>Array</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>from</span><span style=color:#56b6c2>({</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>length</span><span style=color:#bc74c4>:</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>sqroot</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>-</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>1</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>}).</span><span style=color:#c9c9c9>map</span><span style=color:#56b6c2>((</span><span style=color:#c9c9c9>x</span><span style=color:#56b6c2>,</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>i</span><span style=color:#56b6c2>)</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>=&gt;</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>i</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>+</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>2</span><span style=color:#56b6c2>);</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#c9c9c9>numsTillSqroot</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>forEach</span><span style=color:#56b6c2>(</span><span style=color:#c9c9c9>x</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>=&gt;</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>(</span><span style=color:#c9c9c9>arr</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>arr</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>filter</span><span style=color:#56b6c2>(</span><span style=color:#c9c9c9>y</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>=&gt;</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>y</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>%</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>x</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>!==</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>0</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>||</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>y</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>===</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>x</span><span style=color:#56b6c2>)));</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#7fbaf5>return</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>arr</span><span style=color:#56b6c2>;</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#56b6c2>};</span></code></pre></td></tr></table>
+<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
+<pre tabindex=0 style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-js data-lang=js><span style=color:#ff6ac1>const</span> primes <span style=color:#ff6ac1>=</span> num =&gt; {
+<span style=color:#ff5c57>let</span> arr <span style=color:#ff6ac1>=</span> <span style=color:#ff5c57>Array</span>.from({ length<span style=color:#ff6ac1>:</span> num <span style=color:#ff6ac1>-</span> <span style=color:#ff9f43>1</span> }).map((x, i) =&gt; i <span style=color:#ff6ac1>+</span> <span style=color:#ff9f43>2</span>),
+sqroot <span style=color:#ff6ac1>=</span> <span style=color:#ff5c57>Math</span>.floor(<span style=color:#ff5c57>Math</span>.sqrt(num)),
+numsTillSqroot <span style=color:#ff6ac1>=</span> <span style=color:#ff5c57>Array</span>.from({ length<span style=color:#ff6ac1>:</span> sqroot <span style=color:#ff6ac1>-</span> <span style=color:#ff9f43>1</span> }).map((x, i) =&gt; i <span style=color:#ff6ac1>+</span> <span style=color:#ff9f43>2</span>);
+numsTillSqroot.forEach(x =&gt; (arr <span style=color:#ff6ac1>=</span> arr.filter(y =&gt; y <span style=color:#ff6ac1>%</span> x <span style=color:#ff6ac1>!==</span> <span style=color:#ff9f43>0</span> <span style=color:#ff6ac1>||</span> y <span style=color:#ff6ac1>===</span> x)));
+<span style=color:#ff6ac1>return</span> arr;
+};</code></pre></td></tr></table>
 </div>
 </div>
-<div class=highlight><div style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;color:#c9c9c9><tr><td style=vertical-align:top;padding:0;margin:0;border:0;color:#c9c9c9>
-<pre tabindex=0 style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 1
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 2
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 3
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 4
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 5
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 6
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 7
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 8
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 9
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">10
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">11
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">12
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">13
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">14
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">15
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">16
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">17
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">18
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">19
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">20
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">21
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">22
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">23
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">24
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">25
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">26
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">27
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">28
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">29
+<div class=highlight><div style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2>
+<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
+<pre tabindex=0 style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 5
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 6
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 7
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 8
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">12
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">13
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">14
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">15
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">16
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">17
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">18
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">19
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">20
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">21
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">22
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">23
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">24
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">25
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">26
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">27
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">28
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">29
 </span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;color:#c9c9c9;width:100%>
-<pre tabindex=0 style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-js data-lang=js><span style=color:#3e4460>// when trash icon is clicked, display modal and change onclick functionality to match
-</span><span style=color:#3e4460>// target element actions
-</span><span style=color:#3e4460></span><span style=color:#7fbaf5>const</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>clickTrashIcon</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>(</span><span style=color:#c9c9c9>data</span><span style=color:#56b6c2>,</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>element</span><span style=color:#56b6c2>)</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>=&gt;</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>{</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#3e4460>// display confirmation modal
-</span><span style=color:#3e4460></span><span style=color:#7fbaf5>const</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>modal</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#7fbaf5>document</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>getElementById</span><span style=color:#56b6c2>(</span><span style=color:#82cc6a>&#39;modal-confirm&#39;</span><span style=color:#56b6c2>);</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#c9c9c9>modal</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>style</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>display</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#82cc6a>&#39;flex&#39;</span><span style=color:#56b6c2>;</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#3e4460>// remove previous onclick functions
-</span><span style=color:#3e4460></span><span style=color:#7fbaf5>const</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>confirm</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#7fbaf5>document</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>getElementById</span><span style=color:#56b6c2>(</span><span style=color:#82cc6a>&#39;modal-confirm-submit&#39;</span><span style=color:#56b6c2>);</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#c9c9c9>confirm</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>onclick</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#cf5967;background-color:#43454f>null</span><span style=color:#56b6c2>;</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#3e4460>// onclick logic for when group trash items are clicked
-</span><span style=color:#3e4460></span><span style=color:#7fbaf5>if</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>(</span><span style=color:#c9c9c9>element</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>classList</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>contains</span><span style=color:#56b6c2>(</span><span style=color:#82cc6a>&#39;group-item&#39;</span><span style=color:#56b6c2>))</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>{</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#c9c9c9>confirm</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>onclick</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#7fbaf5>function</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>deleteGroup</span><span style=color:#56b6c2>()</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>{</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#c9c9c9>DOM</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>clickGroupTrash</span><span style=color:#56b6c2>(</span><span style=color:#c9c9c9>element</span><span style=color:#56b6c2>);</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#c9c9c9>Logic</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>deleteGroup</span><span style=color:#56b6c2>(</span><span style=color:#c9c9c9>data</span><span style=color:#56b6c2>,</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>element</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>textContent</span><span style=color:#56b6c2>);</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#c9c9c9>DataStorage</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>setLocalStorage</span><span style=color:#56b6c2>(</span><span style=color:#82cc6a>&#39;todolist&#39;</span><span style=color:#56b6c2>,</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>data</span><span style=color:#56b6c2>);</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#c9c9c9>modal</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>style</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>display</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#82cc6a>&#39;none&#39;</span><span style=color:#56b6c2>;</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#56b6c2>};</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#3e4460>// onclick logic for when tasks are being trashed
-</span><span style=color:#3e4460></span><span style=color:#56b6c2>}</span><span style=color:#c9c9c9> </span><span style=color:#7fbaf5>else</span><span style=color:#c9c9c9> </span><span style=color:#7fbaf5>if</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>(</span><span style=color:#c9c9c9>element</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>classList</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>contains</span><span style=color:#56b6c2>(</span><span style=color:#82cc6a>&#39;task&#39;</span><span style=color:#56b6c2>))</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>{</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#c9c9c9>confirm</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>onclick</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#7fbaf5>function</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>deleteTask</span><span style=color:#56b6c2>()</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>{</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#7fbaf5>const</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>currentGroup</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#7fbaf5>document</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>getElementById</span><span style=color:#56b6c2>(</span><span style=color:#82cc6a>&#39;main-header-title&#39;</span><span style=color:#56b6c2>).</span><span style=color:#c9c9c9>textContent</span><span style=color:#56b6c2>;</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#c9c9c9>Logic</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>deleteTask</span><span style=color:#56b6c2>(</span><span style=color:#c9c9c9>data</span><span style=color:#cf5967>\</span><span style=color:#56b6c2>[</span><span style=color:#c9c9c9>currentGroup</span><span style=color:#cf5967>\</span><span style=color:#56b6c2>],</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>element</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>id</span><span style=color:#56b6c2>);</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#c9c9c9>Logic</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>renumberTasks</span><span style=color:#56b6c2>(</span><span style=color:#c9c9c9>data</span><span style=color:#cf5967>\</span><span style=color:#56b6c2>[</span><span style=color:#c9c9c9>currentGroup</span><span style=color:#cf5967>\</span><span style=color:#56b6c2>].</span><span style=color:#c9c9c9>tasks</span><span style=color:#56b6c2>);</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#c9c9c9>DOM</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>populateTasks</span><span style=color:#56b6c2>(</span><span style=color:#c9c9c9>data</span><span style=color:#56b6c2>,</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>currentGroup</span><span style=color:#56b6c2>);</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#c9c9c9>DataStorage</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>setLocalStorage</span><span style=color:#56b6c2>(</span><span style=color:#82cc6a>&#39;todolist&#39;</span><span style=color:#56b6c2>,</span><span style=color:#c9c9c9> </span><span style=color:#c9c9c9>data</span><span style=color:#56b6c2>);</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#c9c9c9>modal</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>style</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>display</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#82cc6a>&#39;none&#39;</span><span style=color:#56b6c2>;</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#56b6c2>};</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#56b6c2>}</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#56b6c2>};</span></code></pre></td></tr></table>
+<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
+<pre tabindex=0 style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-js data-lang=js><span style=color:#78787e>// when trash icon is clicked, display modal and change onclick functionality to match
+</span><span style=color:#78787e>// target element actions
+</span><span style=color:#78787e></span><span style=color:#ff6ac1>const</span> clickTrashIcon <span style=color:#ff6ac1>=</span> (data, element) =&gt; {
+<span style=color:#78787e>// display confirmation modal
+</span><span style=color:#78787e></span><span style=color:#ff6ac1>const</span> modal <span style=color:#ff6ac1>=</span> <span style=color:#ff5c57>document</span>.getElementById(<span style=color:#5af78e>&#39;modal-confirm&#39;</span>);
+modal.style.display <span style=color:#ff6ac1>=</span> <span style=color:#5af78e>&#39;flex&#39;</span>;
+<span style=color:#78787e>// remove previous onclick functions
+</span><span style=color:#78787e></span><span style=color:#ff6ac1>const</span> confirm <span style=color:#ff6ac1>=</span> <span style=color:#ff5c57>document</span>.getElementById(<span style=color:#5af78e>&#39;modal-confirm-submit&#39;</span>);
+confirm.onclick <span style=color:#ff6ac1>=</span> <span style=color:#ff6ac1>null</span>;
+<span style=color:#78787e>// onclick logic for when group trash items are clicked
+</span><span style=color:#78787e></span><span style=color:#ff6ac1>if</span> (element.classList.contains(<span style=color:#5af78e>&#39;group-item&#39;</span>)) {
+confirm.onclick <span style=color:#ff6ac1>=</span> <span style=color:#ff5c57>function</span> deleteGroup() {
+DOM.clickGroupTrash(element);
+Logic.deleteGroup(data, element.textContent);
+DataStorage.setLocalStorage(<span style=color:#5af78e>&#39;todolist&#39;</span>, data);
+modal.style.display <span style=color:#ff6ac1>=</span> <span style=color:#5af78e>&#39;none&#39;</span>;
+};
+<span style=color:#78787e>// onclick logic for when tasks are being trashed
+</span><span style=color:#78787e></span>} <span style=color:#ff6ac1>else</span> <span style=color:#ff6ac1>if</span> (element.classList.contains(<span style=color:#5af78e>&#39;task&#39;</span>)) {
+confirm.onclick <span style=color:#ff6ac1>=</span> <span style=color:#ff5c57>function</span> deleteTask() {
+<span style=color:#ff6ac1>const</span> currentGroup <span style=color:#ff6ac1>=</span> <span style=color:#ff5c57>document</span>.getElementById(<span style=color:#5af78e>&#39;main-header-title&#39;</span>).textContent;
+Logic.deleteTask(data<span style=color:#ff5c57>\</span>[currentGroup<span style=color:#ff5c57>\</span>], element.id);
+Logic.renumberTasks(data<span style=color:#ff5c57>\</span>[currentGroup<span style=color:#ff5c57>\</span>].tasks);
+DOM.populateTasks(data, currentGroup);
+DataStorage.setLocalStorage(<span style=color:#5af78e>&#39;todolist&#39;</span>, data);
+modal.style.display <span style=color:#ff6ac1>=</span> <span style=color:#5af78e>&#39;none&#39;</span>;
+};
+}
+};</code></pre></td></tr></table>
 </div>
 </div>
 <p>Last but not least let&rsquo;s see how this works in practice.</p>
-<div class=highlight><div style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;color:#c9c9c9><tr><td style=vertical-align:top;padding:0;margin:0;border:0;color:#c9c9c9>
-<pre tabindex=0 style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 1
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 2
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 3
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 4
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 5
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 6
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 7
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 8
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 9
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">10
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">11
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">12
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">13
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">14
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">15
+<div class=highlight><div style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2>
+<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
+<pre tabindex=0 style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 5
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 6
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 7
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 8
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">12
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">13
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">14
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">15
 </span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;color:#c9c9c9;width:100%>
-<pre tabindex=0 style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-js data-lang=js><span style=color:#3e4460>//play a move (move is an index on the board)
-</span><span style=color:#3e4460></span><span style=color:#c9c9c9>play</span><span style=color:#56b6c2>(</span><span style=color:#c9c9c9>move</span><span style=color:#56b6c2>)</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>{</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#3e4460>//if board index is not empty (0) or game is in win condition, invalid move
-</span><span style=color:#3e4460></span><span style=color:#7fbaf5>if</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>(</span><span style=color:#7fbaf5>this</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>board</span><span style=color:#cf5967>\</span><span style=color:#56b6c2>[</span><span style=color:#c9c9c9>move</span><span style=color:#cf5967>\</span><span style=color:#56b6c2>]</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>!==</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>0</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>||</span><span style=color:#c9c9c9> </span><span style=color:#7fbaf5>this</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>isWin</span><span style=color:#56b6c2>)</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>{</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#7fbaf5>return</span><span style=color:#c9c9c9> </span><span style=color:#cf5967;background-color:#43454f>false</span><span style=color:#56b6c2>;</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#56b6c2>}</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#3e4460>//plays a 1 or 2 on the board (representing X or O)
-</span><span style=color:#3e4460></span><span style=color:#7fbaf5>this</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>board</span><span style=color:#cf5967>\</span><span style=color:#56b6c2>[</span><span style=color:#c9c9c9>move</span><span style=color:#cf5967>\</span><span style=color:#56b6c2>]</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#7fbaf5>this</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>turn</span><span style=color:#56b6c2>;</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#7fbaf5>this</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>moves</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>push</span><span style=color:#56b6c2>(</span><span style=color:#c9c9c9>move</span><span style=color:#56b6c2>);</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#3e4460>//checks the board and updates the game state if needed
-</span><span style=color:#3e4460>// Use regular expression to detect any 3-in-a-row
-</span><span style=color:#3e4460></span><span style=color:#7fbaf5>this</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>isWin</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#57c7ff>/^(?:...)*(\[12\])\\1\\1|^.?.?(\[12\])..\\2..\\2|^(\[12\])...\\3...\\3|^..(\[12\]).\\4.\\4/</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>test</span><span style=color:#56b6c2>(</span><span style=color:#7fbaf5>this</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>board</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>join</span><span style=color:#56b6c2>(</span><span style=color:#82cc6a>&#34;&#34;</span><span style=color:#56b6c2>));</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#7fbaf5>this</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>isDraw</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>!</span><span style=color:#7fbaf5>this</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>isWin</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>&amp;&amp;</span><span style=color:#c9c9c9> </span><span style=color:#7fbaf5>this</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>moves</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>length</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>===</span><span style=color:#c9c9c9> </span><span style=color:#7fbaf5>this</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>board</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>length</span><span style=color:#56b6c2>;</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#7fbaf5>return</span><span style=color:#c9c9c9> </span><span style=color:#cf5967;background-color:#43454f>true</span><span style=color:#56b6c2>;</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#56b6c2>}</span></code></pre></td></tr></table>
+<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
+<pre tabindex=0 style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-js data-lang=js><span style=color:#78787e>//play a move (move is an index on the board)
+</span><span style=color:#78787e></span>play(move) {
+<span style=color:#78787e>//if board index is not empty (0) or game is in win condition, invalid move
+</span><span style=color:#78787e></span><span style=color:#ff6ac1>if</span> (<span style=color:#ff6ac1>this</span>.board<span style=color:#ff5c57>\</span>[move<span style=color:#ff5c57>\</span>] <span style=color:#ff6ac1>!==</span> <span style=color:#ff9f43>0</span> <span style=color:#ff6ac1>||</span> <span style=color:#ff6ac1>this</span>.isWin) {
+<span style=color:#ff6ac1>return</span> <span style=color:#ff6ac1>false</span>;
+}
+<span style=color:#78787e>//plays a 1 or 2 on the board (representing X or O)
+</span><span style=color:#78787e></span><span style=color:#ff6ac1>this</span>.board<span style=color:#ff5c57>\</span>[move<span style=color:#ff5c57>\</span>] <span style=color:#ff6ac1>=</span> <span style=color:#ff6ac1>this</span>.turn;
+<span style=color:#ff6ac1>this</span>.moves.push(move);
+<span style=color:#78787e>//checks the board and updates the game state if needed
+</span><span style=color:#78787e>// Use regular expression to detect any 3-in-a-row
+</span><span style=color:#78787e></span><span style=color:#ff6ac1>this</span>.isWin <span style=color:#ff6ac1>=</span> <span style=color:#5af78e>/^(?:...)*(\[12\])\\1\\1|^.?.?(\[12\])..\\2..\\2|^(\[12\])...\\3...\\3|^..(\[12\]).\\4.\\4/</span>.test(<span style=color:#ff6ac1>this</span>.board.join(<span style=color:#5af78e>&#34;&#34;</span>));
+<span style=color:#ff6ac1>this</span>.isDraw <span style=color:#ff6ac1>=</span> <span style=color:#ff6ac1>!</span><span style=color:#ff6ac1>this</span>.isWin <span style=color:#ff6ac1>&amp;&amp;</span> <span style=color:#ff6ac1>this</span>.moves.length <span style=color:#ff6ac1>===</span> <span style=color:#ff6ac1>this</span>.board.length;
+<span style=color:#ff6ac1>return</span> <span style=color:#ff6ac1>true</span>;
+}</code></pre></td></tr></table>
 </div>
 </div>
 <p>Did that work?</p>
 <p>Final test&mldr;? maybe.</p>
-<div class=highlight><div style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;color:#c9c9c9><tr><td style=vertical-align:top;padding:0;margin:0;border:0;color:#c9c9c9>
-<pre tabindex=0 style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 1
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 2
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 3
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 4
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 5
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 6
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 7
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 8
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599"> 9
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">10
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">11
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">12
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">13
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">14
-</span><span style="margin-right:.4em;padding:0 .4em;color:#939599">15
+<div class=highlight><div style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2>
+<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
+<pre tabindex=0 style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 5
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 6
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 7
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 8
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">12
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">13
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">14
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">15
 </span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;color:#c9c9c9;width:100%>
-<pre tabindex=0 style=color:#282c34;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-js data-lang=js><span style=color:#3e4460>//play a move (move is an index on the board)
-</span><span style=color:#3e4460></span><span style=color:#c9c9c9>play</span><span style=color:#56b6c2>(</span><span style=color:#c9c9c9>move</span><span style=color:#56b6c2>)</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>{</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>    </span><span style=color:#3e4460>//if board index is not empty (0) or game is in win condition, invalid move
-</span><span style=color:#3e4460></span><span style=color:#c9c9c9>    </span><span style=color:#7fbaf5>if</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>(</span><span style=color:#7fbaf5>this</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>board</span><span style=color:#56b6c2>[</span><span style=color:#c9c9c9>move</span><span style=color:#56b6c2>]</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>!==</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>0</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>||</span><span style=color:#c9c9c9> </span><span style=color:#7fbaf5>this</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>isWin</span><span style=color:#56b6c2>)</span><span style=color:#c9c9c9> </span><span style=color:#56b6c2>{</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>        </span><span style=color:#7fbaf5>return</span><span style=color:#c9c9c9> </span><span style=color:#cf5967;background-color:#43454f>false</span><span style=color:#56b6c2>;</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>     </span><span style=color:#56b6c2>}</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>     </span><span style=color:#3e4460>//plays a 1 or 2 on the board (representing X or O)
-</span><span style=color:#3e4460></span><span style=color:#c9c9c9>    </span><span style=color:#7fbaf5>this</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>board</span><span style=color:#56b6c2>[</span><span style=color:#c9c9c9>move</span><span style=color:#56b6c2>]</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#7fbaf5>this</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>turn</span><span style=color:#56b6c2>;</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>    </span><span style=color:#7fbaf5>this</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>moves</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>push</span><span style=color:#56b6c2>(</span><span style=color:#c9c9c9>move</span><span style=color:#56b6c2>);</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>    </span><span style=color:#3e4460>//checks the board and updates the game state if needed
-</span><span style=color:#3e4460></span><span style=color:#c9c9c9>    </span><span style=color:#3e4460>// Use regular expression to detect any 3-in-a-row
-</span><span style=color:#3e4460></span><span style=color:#c9c9c9>    </span><span style=color:#7fbaf5>this</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>isWin</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#57c7ff>/^(?:...)*([12])\1\1|^.?.?([12])..\2..\2|^([12])...\3...\3|^..([12]).\4.\4/</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>test</span><span style=color:#56b6c2>(</span><span style=color:#7fbaf5>this</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>board</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>join</span><span style=color:#56b6c2>(</span><span style=color:#82cc6a>&#34;&#34;</span><span style=color:#56b6c2>));</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>    </span><span style=color:#7fbaf5>this</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>isDraw</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>=</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>!</span><span style=color:#7fbaf5>this</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>isWin</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>&amp;&amp;</span><span style=color:#c9c9c9> </span><span style=color:#7fbaf5>this</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>moves</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>length</span><span style=color:#c9c9c9> </span><span style=color:#bc74c4>===</span><span style=color:#c9c9c9> </span><span style=color:#7fbaf5>this</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>board</span><span style=color:#56b6c2>.</span><span style=color:#c9c9c9>length</span><span style=color:#56b6c2>;</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9>    </span><span style=color:#7fbaf5>return</span><span style=color:#c9c9c9> </span><span style=color:#cf5967;background-color:#43454f>true</span><span style=color:#56b6c2>;</span><span style=color:#c9c9c9>
-</span><span style=color:#c9c9c9></span><span style=color:#56b6c2>}</span><span style=color:#c9c9c9>
-</span></code></pre></td></tr></table>
+<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
+<pre tabindex=0 style=color:#e2e4e5;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-js data-lang=js><span style=color:#78787e>//play a move (move is an index on the board)
+</span><span style=color:#78787e></span>play(move) {
+    <span style=color:#78787e>//if board index is not empty (0) or game is in win condition, invalid move
+</span><span style=color:#78787e></span>    <span style=color:#ff6ac1>if</span> (<span style=color:#ff6ac1>this</span>.board[move] <span style=color:#ff6ac1>!==</span> <span style=color:#ff9f43>0</span> <span style=color:#ff6ac1>||</span> <span style=color:#ff6ac1>this</span>.isWin) {
+        <span style=color:#ff6ac1>return</span> <span style=color:#ff6ac1>false</span>;
+     }
+     <span style=color:#78787e>//plays a 1 or 2 on the board (representing X or O)
+</span><span style=color:#78787e></span>    <span style=color:#ff6ac1>this</span>.board[move] <span style=color:#ff6ac1>=</span> <span style=color:#ff6ac1>this</span>.turn;
+    <span style=color:#ff6ac1>this</span>.moves.push(move);
+    <span style=color:#78787e>//checks the board and updates the game state if needed
+</span><span style=color:#78787e></span>    <span style=color:#78787e>// Use regular expression to detect any 3-in-a-row
+</span><span style=color:#78787e></span>    <span style=color:#ff6ac1>this</span>.isWin <span style=color:#ff6ac1>=</span> <span style=color:#5af78e>/^(?:...)*([12])\1\1|^.?.?([12])..\2..\2|^([12])...\3...\3|^..([12]).\4.\4/</span>.test(<span style=color:#ff6ac1>this</span>.board.join(<span style=color:#5af78e>&#34;&#34;</span>));
+    <span style=color:#ff6ac1>this</span>.isDraw <span style=color:#ff6ac1>=</span> <span style=color:#ff6ac1>!</span><span style=color:#ff6ac1>this</span>.isWin <span style=color:#ff6ac1>&amp;&amp;</span> <span style=color:#ff6ac1>this</span>.moves.length <span style=color:#ff6ac1>===</span> <span style=color:#ff6ac1>this</span>.board.length;
+    <span style=color:#ff6ac1>return</span> <span style=color:#ff6ac1>true</span>;
+}
+</code></pre></td></tr></table>
 </div>
 </div><p>Complete?</p>
 </div>
