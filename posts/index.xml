@@ -17,8 +17,9 @@
       
       <guid>https://cambuchi.github.io/blog/posts/my-first-post/</guid>
       <description>Some text above
-1 2 3 4 5 6 7 8 9 10 11 12 13 14  { &amp;#34;firstName&amp;#34;: &amp;#34;John&amp;#34;, &amp;#34;lastName&amp;#34;: &amp;#34;Smith&amp;#34;, &amp;#34;age&amp;#34;: 25 } package main import &amp;#34;fmt&amp;#34; func main() { fmt.Println(&amp;#34;Hello, World!&amp;#34;) }   Some text below
-1 2 3 4 5 6 7 8 9 10 11 12 13 14  { &amp;#34;firstName&amp;#34;: &amp;#34;John&amp;#34;, &amp;#34;lastName&amp;#34;: &amp;#34;Smith&amp;#34;, &amp;#34;age&amp;#34;: 25 } package main import &amp;#34;fmt&amp;#34; func main() { fmt.</description>
+{&amp;quot;firstName&amp;quot;: &amp;quot;John&amp;quot;,&amp;quot;lastName&amp;quot;: &amp;quot;Smith&amp;quot;,&amp;quot;age&amp;quot;: 25}package mainimport &amp;quot;fmt&amp;quot;func main() {fmt.Println(&amp;quot;Hello, World!&amp;quot;)} Some text below
+{&amp;quot;firstName&amp;quot;: &amp;quot;John&amp;quot;,&amp;quot;lastName&amp;quot;: &amp;quot;Smith&amp;quot;,&amp;quot;age&amp;quot;: 25}package mainimport &amp;quot;fmt&amp;quot;func main() {fmt.Println(&amp;quot;Hello, World!&amp;quot;)} Another one
+Oh nice this justworks like thisconst Person = (name, age) =&amp;gt; {const sayName = () =&amp;gt; console.log(name)}let Cam = Person(&#39;Cam&#39;, &#39;30&#39;); </description>
     </item>
     
   </channel>
