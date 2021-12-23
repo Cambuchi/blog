@@ -8,6 +8,7 @@
       <url>https://cambuchi.github.io/blog/catgod.jpg</url>
       <link>https://cambuchi.github.io/blog/catgod.jpg</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://cambuchi.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© [Cam Nguyen](https://cambuchi.github.io/blog).</copyright><atom:link href="https://cambuchi.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
