@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on Cam&#39;s Jams</title>
+    <title>Categories on Cam Nguyen | Blog</title>
     <link>https://cambuchi.github.io/blog/categories/</link>
-    <description>Recent content in Categories on Cam&#39;s Jams</description>
+    <description>Recent content in Categories on Cam Nguyen | Blog</description>
     <image>
-      <url>https://cambuchi.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://cambuchi.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://cambuchi.github.io/blog/catgod.jpg</url>
+      <link>https://cambuchi.github.io/blog/catgod.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://cambuchi.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
