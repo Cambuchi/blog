@@ -10,7 +10,52 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© [Cam Nguyen](https://cambuchi.github.io/blog).</copyright>
-    <lastBuildDate>Tue, 11 Jan 2022 05:50:00 +0000</lastBuildDate><atom:link href="https://cambuchi.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jan 2022 12:51:10 +0000</lastBuildDate><atom:link href="https://cambuchi.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API</title>
+      <link>https://cambuchi.github.io/blog/tags/api/</link>
+      <pubDate>Wed, 12 Jan 2022 12:51:10 +0000</pubDate>
+      
+      <guid>https://cambuchi.github.io/blog/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COVID</title>
+      <link>https://cambuchi.github.io/blog/tags/covid/</link>
+      <pubDate>Wed, 12 Jan 2022 12:51:10 +0000</pubDate>
+      
+      <guid>https://cambuchi.github.io/blog/tags/covid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>https://cambuchi.github.io/blog/tags/javascript/</link>
+      <pubDate>Wed, 12 Jan 2022 12:51:10 +0000</pubDate>
+      
+      <guid>https://cambuchi.github.io/blog/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mediawiki</title>
+      <link>https://cambuchi.github.io/blog/tags/mediawiki/</link>
+      <pubDate>Wed, 12 Jan 2022 12:51:10 +0000</pubDate>
+      
+      <guid>https://cambuchi.github.io/blog/tags/mediawiki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yu-Gi-Oh</title>
+      <link>https://cambuchi.github.io/blog/tags/yu-gi-oh/</link>
+      <pubDate>Wed, 12 Jan 2022 12:51:10 +0000</pubDate>
+      
+      <guid>https://cambuchi.github.io/blog/tags/yu-gi-oh/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Code</title>
       <link>https://cambuchi.github.io/blog/tags/code/</link>
@@ -26,15 +71,6 @@
       <pubDate>Tue, 11 Jan 2022 05:50:00 +0000</pubDate>
       
       <guid>https://cambuchi.github.io/blog/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JavaScript</title>
-      <link>https://cambuchi.github.io/blog/tags/javascript/</link>
-      <pubDate>Tue, 11 Jan 2022 05:50:00 +0000</pubDate>
-      
-      <guid>https://cambuchi.github.io/blog/tags/javascript/</guid>
       <description></description>
     </item>
     
