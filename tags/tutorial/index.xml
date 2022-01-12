@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© [Cam Nguyen](https://cambuchi.github.io/blog).</copyright>
-    <lastBuildDate>Wed, 22 Dec 2021 13:53:01 -0800</lastBuildDate><atom:link href="https://cambuchi.github.io/blog/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Jan 2022 05:50:00 +0000</lastBuildDate><atom:link href="https://cambuchi.github.io/blog/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pagination Break Down</title>
+      <link>https://cambuchi.github.io/blog/posts/pagination-break-down/</link>
+      <pubDate>Tue, 11 Jan 2022 05:50:00 +0000</pubDate>
+      
+      <guid>https://cambuchi.github.io/blog/posts/pagination-break-down/</guid>
+      <description>Breaking down the process to create a nice looking pagination for your array.</description>
+    </item>
+    
     <item>
       <title>Build a blog with CMS &amp; Git functionality </title>
       <link>https://cambuchi.github.io/blog/posts/build-a-blog/</link>
