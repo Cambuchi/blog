@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© [Cam Nguyen](https://cambuchi.github.io/blog).</copyright>
-    <lastBuildDate>Wed, 12 Jan 2022 12:51:10 +0000</lastBuildDate><atom:link href="https://cambuchi.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Feb 2022 23:27:49 +0000</lastBuildDate><atom:link href="https://cambuchi.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Digital Apron: Modern Meal Planning</title>
+      <link>https://cambuchi.github.io/blog/posts/digital-apron-modern-meal-planning/</link>
+      <pubDate>Fri, 11 Feb 2022 23:27:49 +0000</pubDate>
+      
+      <guid>https://cambuchi.github.io/blog/posts/digital-apron-modern-meal-planning/</guid>
+      <description>I built a meal planner that captures the functionality of modern meal subscription services.</description>
+    </item>
+    
     <item>
       <title>LOTD: Link Evolution Card Finder</title>
       <link>https://cambuchi.github.io/blog/posts/lotd-link-evolution-card-finder/</link>

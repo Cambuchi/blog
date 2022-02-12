@@ -2,28 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://cambuchi.github.io/blog/</loc>
+    <lastmod>2022-02-11T23:27:49+00:00</lastmod>
+  </url><url>
+    <loc>https://cambuchi.github.io/blog/tags/digital-apron/</loc>
+    <lastmod>2022-02-11T23:27:49+00:00</lastmod>
+  </url><url>
+    <loc>https://cambuchi.github.io/blog/posts/digital-apron-modern-meal-planning/</loc>
+    <lastmod>2022-02-11T23:27:49+00:00</lastmod>
+  </url><url>
+    <loc>https://cambuchi.github.io/blog/tags/groceries/</loc>
+    <lastmod>2022-02-11T23:27:49+00:00</lastmod>
+  </url><url>
+    <loc>https://cambuchi.github.io/blog/tags/javascript/</loc>
+    <lastmod>2022-02-11T23:27:49+00:00</lastmod>
+  </url><url>
+    <loc>https://cambuchi.github.io/blog/tags/meal-planning/</loc>
+    <lastmod>2022-02-11T23:27:49+00:00</lastmod>
+  </url><url>
+    <loc>https://cambuchi.github.io/blog/posts/</loc>
+    <lastmod>2022-02-11T23:27:49+00:00</lastmod>
+  </url><url>
+    <loc>https://cambuchi.github.io/blog/tags/</loc>
+    <lastmod>2022-02-11T23:27:49+00:00</lastmod>
+  </url><url>
+    <loc>https://cambuchi.github.io/blog/tags/web-development/</loc>
+    <lastmod>2022-02-11T23:27:49+00:00</lastmod>
+  </url><url>
     <loc>https://cambuchi.github.io/blog/tags/api/</loc>
     <lastmod>2022-01-12T12:51:10+00:00</lastmod>
   </url><url>
-    <loc>https://cambuchi.github.io/blog/</loc>
-    <lastmod>2022-01-12T12:51:10+00:00</lastmod>
-  </url><url>
     <loc>https://cambuchi.github.io/blog/tags/covid/</loc>
-    <lastmod>2022-01-12T12:51:10+00:00</lastmod>
-  </url><url>
-    <loc>https://cambuchi.github.io/blog/tags/javascript/</loc>
     <lastmod>2022-01-12T12:51:10+00:00</lastmod>
   </url><url>
     <loc>https://cambuchi.github.io/blog/posts/lotd-link-evolution-card-finder/</loc>
     <lastmod>2022-01-12T12:51:10+00:00</lastmod>
   </url><url>
     <loc>https://cambuchi.github.io/blog/tags/mediawiki/</loc>
-    <lastmod>2022-01-12T12:51:10+00:00</lastmod>
-  </url><url>
-    <loc>https://cambuchi.github.io/blog/posts/</loc>
-    <lastmod>2022-01-12T12:51:10+00:00</lastmod>
-  </url><url>
-    <loc>https://cambuchi.github.io/blog/tags/</loc>
     <lastmod>2022-01-12T12:51:10+00:00</lastmod>
   </url><url>
     <loc>https://cambuchi.github.io/blog/tags/yu-gi-oh/</loc>
@@ -39,9 +54,6 @@
     <lastmod>2022-01-11T05:50:00+00:00</lastmod>
   </url><url>
     <loc>https://cambuchi.github.io/blog/tags/tutorial/</loc>
-    <lastmod>2022-01-11T05:50:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cambuchi.github.io/blog/tags/web-development/</loc>
     <lastmod>2022-01-11T05:50:00+00:00</lastmod>
   </url><url>
     <loc>https://cambuchi.github.io/blog/tags/blog/</loc>
